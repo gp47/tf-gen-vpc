@@ -2,7 +2,7 @@
 
 ## Summary
 
-Terraform code to create an GEN-Network
+Terraform code to create an GEN-AWS-Network
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
