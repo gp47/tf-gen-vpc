@@ -23,6 +23,11 @@ variable "private_subnets" {
   description = "The list of private subnets"
 }
 
+variable "database_subnets" {
+  type        = list(string)
+  description = "The list of database subnets"
+}
+
 variable "tags" {
   type        = map(string)
   description = "Tags assigned to the created resources"

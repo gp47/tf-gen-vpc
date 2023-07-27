@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- add tf-gen-vpc
+- add tf-gen-vpc, based on REF: 20230721-sa47
 
 ### Changed
 
