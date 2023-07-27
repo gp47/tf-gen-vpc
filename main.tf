@@ -9,16 +9,16 @@ module "vpc" {
   name = "${var.project_name}-vpc"
   cidr = var.vpc_cidr
 
-  azs             = ["${var.region}a", "${var.region}b"]
-  public_subnets  = var.public_subnets
-  private_subnets = var.private_subnets
+  azs              = ["${var.region}a", "${var.region}b"]
+  public_subnets   = var.public_subnets
+  private_subnets  = var.private_subnets
   database_subnets = var.database_subnets
 
-  enable_nat_gateway      = true
-  single_nat_gateway      = true
-  enable_dns_hostnames    = true
+  enable_nat_gateway   = true
+  single_nat_gateway   = true
+  enable_dns_hostnames = true
 
-  create_database_subnet_group  = true
+  create_database_subnet_group = true
 
   tags = var.tags
 }

@@ -30,6 +30,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_database_subnets"></a> [database\_subnets](#input\_database\_subnets) | The list of database subnets | `list(string)` | n/a | yes |
 | <a name="input_private_subnets"></a> [private\_subnets](#input\_private\_subnets) | The list of private subnets | `list(string)` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | The Project Name. | `string` | n/a | yes |
 | <a name="input_public_subnets"></a> [public\_subnets](#input\_public\_subnets) | The list of public subnets | `list(string)` | n/a | yes |
@@ -41,9 +42,9 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_database_subnet_group"></a> [database\_subnet\_group](#output\_database\_subnet\_group) | ID of database subnet group |
+| <a name="output_cidr_block"></a> [cidr\_block](#output\_cidr\_block) | The CIDR block of the VPC |
+| <a name="output_database_subnet_group_name"></a> [database\_subnet\_group\_name](#output\_database\_subnet\_group\_name) | Name of database subnet group |
 | <a name="output_private_subnets"></a> [private\_subnets](#output\_private\_subnets) | The list of private subnets IDs |
 | <a name="output_public_subnets"></a> [public\_subnets](#output\_public\_subnets) | List of IDs of public subnets. |
-| <a name="output_vpc"></a> [vpc](#output\_vpc) | The ID of the VPC. |
-| <a name="output_vpc_cidr_block"></a> [vpc\_cidr\_block](#output\_vpc\_cidr\_block) | The CIDR block of the VPC |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The ID of the VPC. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
